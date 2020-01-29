@@ -4,7 +4,7 @@ const PointSchema = new mongoose.Schema({
     type: {
         type: String,
         enum: ['Point'],
-        required: true
+        required: true,
     },
     coordinates: {
         type: [Number],
@@ -12,4 +12,4 @@ const PointSchema = new mongoose.Schema({
     },
 });
 
-module.exports = mongoose.model('Point', PointSchema);
+module.exports = PointSchema;
