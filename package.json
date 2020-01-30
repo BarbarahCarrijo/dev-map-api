@@ -13,5 +13,7 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.2"
-  }
+  },
+  "repository": "git@github.com:BarbarahCarrijo/dev-map-api.git",
+  "author": "Barbara Carrijo <barbarahcarrijo@gmail.com>"
 }
