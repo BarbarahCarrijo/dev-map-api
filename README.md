@@ -1,26 +1,33 @@
 # dev-map-api
-This project was bootstrapped with Node.js
+#### API de cadastro e mapeamento de desenvolvedores
+Este projeto foi iniciado com o Node.js, tem como finalidade fixação do conteúdo aprendido durante a semana Omini Stack, onde foi realizado o desenvolvimento de uma aplicação que mantem cadastros de devs.
+Esta API consome dados providos da API do [GitHub](https://github.com) 
 
-## Available Scripts
+## Tecnologias 
 
-In the project directory, you can run:
+Aqui estão as tecnologias usadas neste projeto:
+
+* NodeJS v12.14.1
+* Express v4.17.1
+* Yarn v1.19.1
+* Mongoose v5.8.10
+
+## Scripts disponíveis
+
+No diretório do projeto, você pode executar:
+
+### `yarn install`
+
+Executa a instalação das dependências do projeto.
 
 ### `yarn dev`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3030](http://localhost:3030) to view it in the browser.
+Executa o aplicativo no modo de desenvolvimento.<br />
+Abra [http://localhost:3030](http://localhost:3030) para visualizá-lo no navegador.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+A página será recarregada, caso sejam realizadas edições.<br />
+Também será possível monitorar os erros no console.
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.<br />
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+###### *Obs¹.: Para persistência, é necessário configurar um cluster no [Mongo Atlas](https://www.mongodb.com/cloud/atlas) e realizar a alteração das strings de conexão*
+###### *Obs².: Para realizar os testes dos métodos, foi utilizada a ferramenta [Insomnia](https://insomnia.rest/)*
