@@ -32,3 +32,5 @@ Também será possível monitorar os erros no console.
 ###### *Obs¹.: Para persistência, é necessário configurar um cluster no [Mongo Atlas](https://www.mongodb.com/cloud/atlas) e realizar a alteração das strings de conexão*
 ###### *Obs².: Para realizar os testes dos métodos, foi utilizada a ferramenta [Insomnia](https://insomnia.rest/)*
 ###### *Obs³.: Este projeto ainda está em fase de desenvolvimento, deixe sua estrelinha para acompanhar seu progresso :)*
+
+### Documentação da API (be continue)
